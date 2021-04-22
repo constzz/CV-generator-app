@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fill_in_the_fields"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/input_field_heading"
+                android:text="@string/your_name" />
+
+            <EditText
+                android:id="@+id/inputNameEditText"
+                style="@style/input_field_edit_text"
+                android:hint="@string/name"
+                android:inputType="textAutoComplete" />
+
+            <TextView
+                style="@style/input_field_heading"
+                android:text="@string/your_surname" />
+
+            <EditText
+                android:id="@+id/inputSurnameEditText"
+                style="@style/input_field_edit_text"
+                android:hint="@string/surname"
+                android:inputType="textAutoComplete" />
+
+            <TextView
+                style="@style/input_field_heading"
+                android:text="@string/your_email_address" />
+
+            <EditText
+                android:id="@+id/inputEmailEditText"
+                style="@style/input_field_edit_text"
+                android:hint="@string/example_gmail_com"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                style="@style/input_field_heading"
+                android:text="@string/your_mobile_phone_number" />
+
+            <EditText
+                android:id="@+id/inputPhoneNumberEditText"
+                style="@style/input_field_edit_text"
+                android:hint="@string/mobile_phone_hint"
+                android:inputType="phone" />
+
+            <TextView
+                style="@style/input_field_heading"
+                android:text="@string/link_to_one_of_your_social" />
+
+            <EditText
+                android:id="@+id/inputSocialMediaEditText"
+                style="@style/input_field_edit_text"
+                android:hint="@string/social_link_hint"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/input_field_heading"
+                android:text="@string/short_bio" />
+
+            <EditText
+                android:id="@+id/inputBiographyEditText"
+                style="@style/input_field_edit_text"
+                android:hint="@string/bio_hint"
+                android:inputType="textMultiLine"
+                android:maxLength="60"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/send_btn_text"
+                android:textSize="22sp"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style
+        name="input_field_heading"
+        parent="Widget.MaterialComponents.TextView">
+        <item name = "android:layout_width"> match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style
+        name="input_field_edit_text"
+        parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">22sp</item>
+
+    </style>
+</resources>

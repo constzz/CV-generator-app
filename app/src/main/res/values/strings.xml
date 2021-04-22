@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Questionnaire</string>
+    <string name="fill_in_the_fields">Fill in the fields:</string>
+    <string name="your_name">Your name:</string>
+    <string name="name">Name</string>
+    <string name="your_surname">Your surname:</string>
+    <string name="surname">Surname</string>
+    <string name="your_email_address">Your email address:</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="your_mobile_phone_number">Your mobile phone number:</string>
+    <string name="mobile_phone_hint">+38099333322</string>
+    <string name="link_to_one_of_your_social">Link to one of your social:</string>
+    <string name="social_link_hint">\@instagram_name</string>
+    <string name="short_bio">Short bio:</string>
+    <string name="bio_hint">My name is Thomas, I\'m mobile developer from Canada...</string>
+    <string name="send_btn_text">Send</string>
+</resources>
